@@ -1,0 +1,92 @@
+.title {
+    margin: 10px;
+
+    font-size: 30px;
+    font-family: 'Fjalla One', sans-serif;
+    font-style: italic;
+}
+h1.title{
+    color: red;
+    text-align: center;
+    font-family: 'Lobster', cursive;
+}
+h2.title{
+    margin-top: 20px;
+}
+
+.exampl__div{
+    
+    padding: 10px;
+    border:1px solid black;
+    text-align: center;
+    background-position: center;
+}
+.exampl__div2{
+    margin: 10px;
+    border: 1px solid black;
+    text-align: center;
+    background-position: center;
+}
+.exampl__span{
+    display: block;
+    margin: 10px;
+    text-align: center;
+    background-position: center;
+}
+
+.img {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.overflow {
+    overflow: auto;
+    max-height: 50px;
+    text-align: center;
+    margin: 10px;
+}
+
+/* exampls */
+
+.exampls-div {
+    border: 1px dashed black;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.exampls-div2 {
+    outline: 1px solid black;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.exampls-span {
+    border: 1px dotted black;
+    font-size: 14px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.exampls-span2 {
+    border: 1px solid black;
+    font-size: 14px;
+    display: block;
+    border-radius: 2px;
+    margin-bottom: 10px;
+
+    visibility: visible;
+}
+.boxShadowDiv {
+    font-size: 14px;
+    margin: 20px 20px 20px 0px;
+
+    box-shadow: 5px 5px  10px 5px black /*inst для отримання тіні всередину блока а не на зовні*/;
+    border-radius: 2px;
+
+    opacity: 75%;
+}
+
+.exampls-img {
+    border-top: 1px solid black;
+    margin: 10px 0 0 0 ;
+}
